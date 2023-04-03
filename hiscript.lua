@@ -84,7 +84,7 @@ Load.TextSize = 45.000
 Load.TextWrapped = true
 Load.MouseButton1Down:Connect(function()
 	if game.PlaceId == 286090429 then
-		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/Wjdhfhe.lua"), true))()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Hycial/HiScript/main/hub.lua"), true))()
 	end
 	Loader:Destroy()
 end)
