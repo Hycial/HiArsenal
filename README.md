@@ -15,7 +15,7 @@ HiScript is a multi-game Cheat Script For Roblox
 #### Step 2: Paste The Code
 
 ```http
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Hycial/HyScript/master/HiScript.lua"))();
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Hycial/HyScript/master/hiscript.lua"))();
 ```
 
 ## Authors
