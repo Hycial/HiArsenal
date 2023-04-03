@@ -1,0 +1,2 @@
+# HiScript
+HiScript For Roblox
