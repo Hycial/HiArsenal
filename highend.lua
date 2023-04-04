@@ -1180,5 +1180,5 @@ Section5:NewKeybind("Toggle ui", "Toogle the ui lol", Enum.KeyCode.F6, function(
 end)
 
 Section5:NewButton("Copy discord invite link", "Copies the discord invite link to clipboard (JOIN!!!!)", function()
-    setclipboard("https://discord.gg/rQEHvHFGNf")
+    setclipboard("https://discord.gg/")
 end)
