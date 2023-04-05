@@ -15,7 +15,7 @@ HiScript is a Arsenal Cheat Script For Roblox
 #### Step 2: Paste The Code
 
 ```http
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Hycial/HiScript/master/hiscript.lua"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hycial/HiArsenal/master/hiscript.lua"))();
 ```
 
 ## Authors
