@@ -1,7 +1,7 @@
 
 # HiScript
 
-HiScript is a multi-game Cheat Script For Roblox
+HiScript is a Arsenal Cheat Script For Roblox
 
 
 ## How To Use
