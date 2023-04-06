@@ -46,13 +46,13 @@ TextLabel.TextWrapped = true
 UITextSizeConstraint.Parent = TextLabel
 UITextSizeConstraint.MaxTextSize = 86
 
-HighEnd.Name = "HighEnd"
+HighEnd.Name = "Normal"
 HighEnd.Parent = Frame
 HighEnd.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
 HighEnd.Position = UDim2.new(0.252212375, 0, 0.211087421, 0)
 HighEnd.Size = UDim2.new(0.440265477, 0, 0.106609806, 0)
 HighEnd.Font = Enum.Font.SourceSans
-HighEnd.Text = "High end"
+HighEnd.Text = "Highend"
 HighEnd.TextColor3 = Color3.fromRGB(0, 0, 0)
 HighEnd.TextScaled = true
 HighEnd.TextSize = 40.000
@@ -66,13 +66,13 @@ end)
 UITextSizeConstraint_2.Parent = HighEnd
 UITextSizeConstraint_2.MaxTextSize = 50
 
-LowEnd.Name = "LowEnd"
+LowEnd.Name = "Lite"
 LowEnd.Parent = Frame
 LowEnd.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
 LowEnd.Position = UDim2.new(0.252212375, 0, 0.377398729, 0)
 LowEnd.Size = UDim2.new(0.440265477, 0, 0.106609806, 0)
 LowEnd.Font = Enum.Font.SourceSans
-LowEnd.Text = "Low end"
+LowEnd.Text = "Lowend"
 LowEnd.TextColor3 = Color3.fromRGB(0, 0, 0)
 LowEnd.TextScaled = true
 LowEnd.TextSize = 40.000
