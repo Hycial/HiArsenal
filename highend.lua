@@ -6,6 +6,7 @@ local AntiAim_Toggle = false
 -- Instances:
 
 local Toggle = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
 
 --Properties:
@@ -23,27 +24,6 @@ Frame.Size = UDim2.new(0.131455392, 0, 0.270531386, 0)
 
 P = game:GetService("Players").LocalPlayer
 P.CharacterAdded:Connect(function(char)
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
-local Toggle = Instance.new("ScreenGui")
-local TextButton = Instance.new("TextButton")
-
---Properties:
-
-Toggle.Name = "Toggle"
-Toggle.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-Toggle.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-Toggle.DisplayOrder = 999999998
-
-Frame.Parent = Toggle
-Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame.BackgroundTransparency = 0.500
-Frame.Position = UDim2.new(0.846244156, 0, 0.0386473425, 0)
-Frame.Size = UDim2.new(0.131455392, 0, 0.270531386, 0)
-end)
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/ui%20lib%20fix.lua"))();
 
