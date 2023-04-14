@@ -29,7 +29,6 @@ P.CharacterAdded:Connect(function(char)
 -- Instances:
 
 local Toggle = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
 
 --Properties:
@@ -44,18 +43,6 @@ Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BackgroundTransparency = 0.500
 Frame.Position = UDim2.new(0.846244156, 0, 0.0386473425, 0)
 Frame.Size = UDim2.new(0.131455392, 0, 0.270531386, 0)
-
-TextButton.Parent = Frame
-TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton.BackgroundTransparency = 1.000
-TextButton.Size = UDim2.new(1, 0, 1, 0)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "HiScript"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextSize = 30.000
-TextButton.MouseButton1Down:Connect(function()
-	game:GetService("VirtualInputManager"):SendKeyEvent(true, "F6" ,false ,game)
-end)
 end)
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/ui%20lib%20fix.lua"))();
