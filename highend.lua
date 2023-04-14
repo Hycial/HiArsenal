@@ -11,6 +11,8 @@ local TextButton = Instance.new("TextButton")
 
 --Properties:
 
+TextButton.Parent = Frame TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255) TextButton.BackgroundTransparency = 1.000 TextButton.Size = UDim2.new(1, 0, 1, 0) TextButton.Font = Enum.Font.SourceSans TextButton.Text = "HiScript" TextButton.TextColor3 = Color3.fromRGB(0, 0, 0) TextButton.TextSize = 30.000 TextButton.MouseButton1Down:Connect(function() game:GetService("VirtualInputManager"):SendKeyEvent(true, "F6" ,false ,game) end)
+
 Toggle.Name = "Toggle"
 Toggle.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 Toggle.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
