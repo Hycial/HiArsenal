@@ -6,6 +6,7 @@ local AntiAim_Toggle = false
 -- Instances:
 
 local Toggle = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
 
 --Properties:
@@ -26,7 +27,7 @@ TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.BackgroundTransparency = 1.000
 TextButton.Size = UDim2.new(1, 0, 1, 0)
 TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "Pwnerhub"
+TextButton.Text = "HiScript"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 30.000
 TextButton.MouseButton1Down:Connect(function()
@@ -41,6 +42,7 @@ P.CharacterAdded:Connect(function(char)
 -- Instances:
 
 local Toggle = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
 
 --Properties:
@@ -61,7 +63,7 @@ TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.BackgroundTransparency = 1.000
 TextButton.Size = UDim2.new(1, 0, 1, 0)
 TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "Pwnerhub"
+TextButton.Text = "HiScript"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 30.000
 TextButton.MouseButton1Down:Connect(function()
