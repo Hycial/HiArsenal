@@ -6,7 +6,6 @@ local AntiAim_Toggle = false
 -- Instances:
 
 local Toggle = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
 
 --Properties:
@@ -42,7 +41,6 @@ P.CharacterAdded:Connect(function(char)
 -- Instances:
 
 local Toggle = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
 
 --Properties:
