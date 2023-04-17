@@ -73,7 +73,7 @@ end)
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/ui%20lib%20fix.lua"))();
 
-local Window = Library.CreateLib("HiScript", "Ocean")
+local Window = Library.CreateLib("HiScript", "Midnight")
 
 local Tab1 = Window:NewTab("Combat")
 local Tab2 = Window:NewTab("Visuals")
